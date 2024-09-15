@@ -1,8 +1,10 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
 .cabecalho {
   background: #181818;
   color: #ffffff;
-  display: flex;
-  justify-content: center;
   padding: 30px;
 }
 .cabecalho h1 {
