@@ -36,3 +36,17 @@
     text-align: center;
   }
 }
+
+
+/* style - main */
+.banner__principal{
+  background-color: #313131;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.banner__principal h2{
+  color: #b1b1b1;
+  font-weight: 400;
+}
