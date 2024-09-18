@@ -82,4 +82,7 @@
   .conteudo__principal {
     width: 300px;
   }
+  .banner__principal h2::after {
+    top: 90px; 
+  }
 }
