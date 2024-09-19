@@ -1,4 +1,4 @@
-let criacaoUser = prompt('Digite o usuário');
+/*let criacaoUser = prompt('Digite o usuário');
 let criacaoSenha = prompt("Crie uma senha de acesso:")
 
 let loginUser;
@@ -16,5 +16,12 @@ if(loginUser == criacaoUser && senhaUser == criacaoSenha){
   alert("Credenciais de acesso incorretas! tente novamente.")
 }
 }
+*/
 
+function botaoClicado() {
+  let userName = document.getElementById("nome").value
+  let userPassword = document.getElementById("senha").value
 
+  console.log(userName)
+  console.log(userPassword)
+}
