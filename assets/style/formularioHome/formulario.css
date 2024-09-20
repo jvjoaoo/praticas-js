@@ -13,14 +13,14 @@
   position: relative;
 }
 .banner__principal h2::after {
- content: "";
- position: absolute;
- top: 50px;
- left: 0px;
- width: 50px;
- height: 7px;
- border-radius: 2px;
- background-color: #fdd803; 
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 50px;
+  height: 7px;
+  border-radius: 2px;
+  background-color: #fdd803;
 }
 
 .conteudo__principal {
@@ -37,11 +37,13 @@
   color: #b1b1b1;
 }
 
-.form__teste label{
+.form__teste label {
   padding: 0px 5px;
+  color: #d1d1d1;
 }
 .form__teste input {
   border: 0;
+  border-bottom: 1px solid #d1d1d12e;
   color: #b1b1b1;
   background-color: #3d363652;
   padding: 5px 0px 3px 5px;
@@ -83,6 +85,6 @@
     width: 300px;
   }
   .banner__principal h2::after {
-    top: 90px; 
+    top: 90px;
   }
 }
