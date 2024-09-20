@@ -82,9 +82,16 @@
 
 @media (max-width: 600px) {
   .conteudo__principal {
-    width: 300px;
+    width: 250px;
+  }
+  .banner__principal {
+    height: 100vh;
+  }
+  .banner__principal h2 {
+    font-size: 1.4rem;
   }
   .banner__principal h2::after {
-    top: 90px;
+    top: 35px;
+    height: 4px;
   }
 }
